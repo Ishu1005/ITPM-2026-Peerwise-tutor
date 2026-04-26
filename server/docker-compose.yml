@@ -1,0 +1,12 @@
+# Local MongoDB for development when Atlas / DNS is unavailable.
+# From this folder: docker compose up -d
+services:
+  mongo:
+    image: mongo:7
+    ports:
+      - '27017:27017'
+    volumes:
+      - peerwise_mongo_data:/data/db
+
+volumes:
+  peerwise_mongo_data:
