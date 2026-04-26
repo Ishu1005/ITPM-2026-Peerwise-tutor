@@ -1,0 +1,17 @@
+Buttons and headings
+color: #7B3F00; /* primary cinnamon */
+background-color: #7B3F00;
+hover:bg-color: #5C2C00;
+
+/* Input fields and card backgrounds */
+background-color: #FFFaf2;
+background-color (semi-transparent card): rgba(255, 250, 242, 0.8);
+
+/* Borders */
+border-color: #D6A77A;
+
+/* Overlay on background image */
+background-color: rgba(0, 0, 0, 0.2);
+
+/* Text */
+color: #7B3F00;

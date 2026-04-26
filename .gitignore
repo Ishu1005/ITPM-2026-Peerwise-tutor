@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Environment variables
+# .env
+
+server/uploads/*
+# This directory is used for storing uploaded files, such as product images.    
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build output (for React frontend)
+build/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Misc
+*.bak
+*.tmp
